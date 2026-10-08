@@ -1,0 +1,22 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+
+# Datos (se descargan de la fuente original)
+**/data/
+*.csv
+*.zip
+
+# Documentos generados
+*.pdf
+
+# Basura de Jupyter, Python y sistema
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Herramientas personales
+CLAUDE.md
+.claude/
