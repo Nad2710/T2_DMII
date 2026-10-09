@@ -10,13 +10,17 @@ El presente repositorio identifica reglas de asociación y patrones frecuentes e
 
 | Carpeta | Dataset | Algoritmo |
 |---|---|---|
-| `Online Retail II/` | [Online Retail II (UCI)](https://archive.ics.uci.edu/dataset/502/online+retail+ii), años 2009-2010 y 2010-2011 | _por definir_ |
+| `Online Retail II/` | [Online Retail II (UCI)](https://archive.ics.uci.edu/dataset/502/online+retail+ii), años 2009-2010 y 2010-2011 | FP-Growth |
 | `Titanic/` | [Titanic (Kaggle)](https://www.kaggle.com/competitions/titanic/data), `train.csv` | FP-Growth |
 | `FIFA/` | [FIFA (SPMF)](https://www.philippe-fournier-viger.com/spmf/index.php?link=datasets.php) | PrefixSpan |
 
 ```text
 T2_DMII/
 ├── Online Retail II/
+│   ├── notebooks/
+│   │   ├── 01_eda_calidad_preprocesamiento.ipynb   # perfilado, calidad y preprocesamiento
+│   │   └── 02_fpgrowth_reglas_asociacion.ipynb     # canastas, FP-Growth por trimestre y reglas
+│   └── data/                                       # no incluida: ver Online Retail II/README.md
 ├── Titanic/
 │   ├── notebooks/
 │   │   ├── 01_eda_calidad_preprocesamiento.ipynb   # perfilado, calidad y transformación
